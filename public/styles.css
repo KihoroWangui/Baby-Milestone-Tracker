@@ -1,0 +1,140 @@
+body {
+  background-image: url("images/background.PNG");
+  background-size: cover;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background: rgba(230, 230, 230, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+select {
+  width: 100%; /* Make input fields full width */
+  padding: 10px; /* Add padding for better touch targets */
+  margin: 10px 0; /* Margin for spacing */
+  border: 1px solid #ccc; /* Border styling */
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding in width calculations */
+}
+
+button {
+  width: 100%; /* Full width for buttons */
+  padding: 10px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; /* Pointer cursor for buttons */
+}
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+/* Navbar Styles */
+nav {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(206, 203, 203);
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styling */
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+/* Logo styling */
+.navbar-logo img {
+  height: 40px;
+  width: auto;
+  margin-right: 20px;
+}
+
+/* Navbar items styling */
+.navbar-items {
+  display: flex;
+  gap: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+/* Navbar styling */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+/* Logo styling */
+.navbar-logo img {
+  height: 40px;
+  width: auto;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Navbar items styling */
+.navbar-items {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #555;
+}

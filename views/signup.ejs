@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="/" class="navbar-logo">
+        <img src="images/logo.png" alt="Logo" />
+      </a>
+      <ul>
+        <li><a href="/signup">Sign Up</a></li>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/milestones">Milestones</a></li>
+      </ul>
+    </nav>
+    <h1>Sign Up</h1>
+    <form action="/signup" method="POST">
+      <input type="text" name="username" placeholder="Username" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <input
+        type="text"
+        name="Baby's name"
+        placeholder="Baby's name"
+        required
+      />
+      <input type="date" name="dob" placeholder="Date of Birth" required />
+      <input
+        type="number"
+        name="weight"
+        placeholder="Weight at Birth (kg)"
+        required
+      />
+      <select name="gender" required>
+        <option value="">Select Gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+      <input
+        type="text"
+        name="size"
+        placeholder="Size at Birth (cm)"
+        required
+      />
+      <button type="submit">Sign Up</button>
+      <p>Already have an account? <a href="/login">Login</a></p>
+    </form>
+  </body>
+</html>
